@@ -6,6 +6,7 @@ html {
     color: #707070;
     font-family: Montserrat;
     height: 920px;
+    max-width: 1920px;
     width: auto;
     margin: auto;
 }
@@ -176,11 +177,13 @@ p {
     line-height: 3.5;
 }
 
+
 .triangleBottom {
     float: right;
     width: 0;
     height: 0;
     opacity: 3%;
+    margin-top: -14px;
     border-bottom: 100px solid purple;
     border-left: 100px solid transparent; 
 }
@@ -194,5 +197,5 @@ footer {
     width: 100%;
     height: 30px;
     margin-top: 86px;
-    
+  
 }

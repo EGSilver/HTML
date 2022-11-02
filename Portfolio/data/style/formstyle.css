@@ -42,7 +42,7 @@ ul {
   margin: auto;
 }
 
-.li {
+.navLi {
   text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
   display: inline-block;
   margin-top: 5px;
@@ -58,7 +58,7 @@ ul {
   
 }
 
-.li:hover {
+.navLi:hover {
   background-color: rgb(171, 190, 255);
   transform: scale(1.1);
 }
@@ -115,6 +115,6 @@ ul {
     text-align: center;
     width: 100%;
     height: 30px;
-    margin-top: 266px;
+    margin-top: 267px;
 
 }
