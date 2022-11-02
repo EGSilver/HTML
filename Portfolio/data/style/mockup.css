@@ -26,6 +26,22 @@ ul {
     list-style: none;
 }
 
+.navLiCurrentActive {
+    scale: 1.1;
+    text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
+    display: inline-block;
+    margin-top: 5px;
+    width: 85px;
+    height: 35px;
+    margin-left: 12px;
+    border-radius: 28px;
+    background-color: rgb(171, 190, 255);
+    border: #0f0a0a00;
+    box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+    text-align: center;
+    line-height: 2.2; 
+}
+
 .navLi {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
@@ -38,13 +54,16 @@ ul {
     border: #0f0a0a00;
     box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
     text-align: center;
-    line-height: 2.2; 
-    
+    line-height: 2.2;  
 }
 
 .navli:hover {
     background-color: rgb(171, 190, 255);
     transform: scale(1.1);
+}
+
+.navLiCurrentActive:hover {
+    background-color: rgba(97, 172, 238, 0.6);
 }
 
 a {

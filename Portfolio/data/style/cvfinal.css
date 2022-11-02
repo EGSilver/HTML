@@ -5,13 +5,12 @@ html {
     color: #000000fd;
     font-family: Montserrat;
     height: 920px;
-    width: 1900px;
     margin: auto;
 }
 
 body {
+    width: 1900px;
     margin: auto;
-    width: 1920px;
 }
 
 .linkDeNayer, .linkDeNayer a {
@@ -50,7 +49,27 @@ ul {
     list-style: none;
 }
 
-.li {
+.navLiCurrentActive {
+    scale: 1.1;
+    text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
+    display: inline-block;
+    margin-top: 5px;
+    width: 85px;
+    height: 35px;
+    margin-left: 12px;
+    border-radius: 28px;
+    background-color: rgb(171, 190, 255);
+    border: #0f0a0a00;
+    box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+    text-align: center;
+    line-height: 2.2; 
+}
+
+.navLiCurrentActive:hover {
+    background-color: rgba(97, 172, 238, 0.6);
+}
+
+.navLi {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
     margin-top: 5px;
@@ -66,7 +85,7 @@ ul {
     
 }
 
-.li2 {
+.navli2 {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
     margin-top: 5px;
@@ -82,7 +101,7 @@ ul {
     
 }
 
-.li:hover, .li2:hover {
+.navli:hover, .navli2:hover {
     background-color: rgb(171, 190, 255);
     transform: scale(1.1);
 }
