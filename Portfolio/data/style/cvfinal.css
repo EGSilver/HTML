@@ -99,10 +99,6 @@ a {
     margin-top: 100;
 }  
 
-.ulBlockOne:hover, .ulBlockTwo:hover, .table:hover {
-    background-color: #17dede1e;
-}
-
 .ulBlockTwo {
     border-radius: 28px;
     float: left;
@@ -131,6 +127,10 @@ td {
 table, th, td {
     border:1px solid black;
   }
+
+  .ulBlockOne:hover, .ulBlockTwo:hover, .table:hover {
+    background-color: #17dede1e;
+}
 
 footer {
     clear: both;

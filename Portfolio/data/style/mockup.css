@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-.li {
+.navli {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
     margin-top: 5px;
@@ -41,48 +41,14 @@ ul {
     
 }
 
-.li:hover {
+.navli:hover {
     background-color: rgb(171, 190, 255);
     transform: scale(1.1);
 }
 
-
-
-.li2 {
-    margin-left: 35px;
-    margin-top: 38px;
-    font-size: 16px;
-    padding: 25;
-    box-shadow: #772E72;
-    text-align: left;
-}
-
-.li3 {
-    margin-left: 39px;
-    margin-top: 11px;
-    font-size: 16px;
-    padding: 22;
-    box-shadow: #772E72;
-    text-align: left;
-}
-
-.li4 {
-    text-decoration: underline;
-    margin-left: 32px;
-    margin-top: 10px;
-    font-size: 16px;
-    padding: 29;
-    box-shadow: #772E72;
-    text-align: left;
-}
-
-
-
 a {
     color: #000000;
     text-decoration: none;
-    opacity: 100%;
-    
 }
 
 .asideLeft {
@@ -105,32 +71,43 @@ a {
     height: auto;
 }
 
+h1 {
+    font-size: 30px;
+    line-height: 3;
+    margin-left: 48px;
+    font-style: italic;
+}
+
 h2 {
-    margin-left: 30px;
-}
-
-.buttonPic1
-{
-    mix-blend-mode: darken;
-    margin-top: 10;
-    margin-left: -18;
-}
-
-.ButtonPic2 {
-    mix-blend-mode: darken;
-    margin-top: 25;
-    margin-left: -18;
-}
-
-.ButtonPic3 {
-    mix-blend-mode: darken;
-    margin-top: 25;
-    margin-left: -18;
+    font-size: 30px;
+    margin-left: 20px;
+    font-style: italic;
 }
 
 .contactInfo {
     float: left;
 }
+
+.contactImgli1 {
+    mix-blend-mode: darken;
+    margin: 4 15 0px -20px;
+}
+
+.contactImgli {
+    mix-blend-mode: darken;
+    margin: 30 15 0px -20px;
+}
+
+.infoli {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.infoli a {
+    text-decoration: underline;
+}
+
 
 main {
     float: left;
@@ -151,20 +128,6 @@ main {
     background-color: #17dede0e;
 }
 
-h1 {
-    line-height: 3;
-    margin-left: 48px;
-    font-style: italic;
-}
-
-p {
-    margin-left: 47px;
-    margin-top: -20px;
-}
-
-.aboutMe:hover , .ambitie:hover,  .motivatie:hover {
-    background-color: #17dede1e;
-}
 
 .motivatie {
     margin-left: 10px;
@@ -186,6 +149,15 @@ p {
     background-color: #17dede0e;
 }
 
+p {
+    margin-left: 47px;
+    margin-top: -40px;
+}
+
+.aboutMe:hover , .ambitie:hover,  .motivatie:hover {
+    background-color: #17dede1e;
+}
+
 .asideRight {
     color: #000000;
     background-image: url(../img/Group2.png);
@@ -203,15 +175,6 @@ p {
 .services {
     line-height: 3.5;
 }
-
-/* .rightSideBarBottomWrapper {
-    background-image: url(../img/rightSideBarBottomOpac.png);
-    width: 350px;
-    height: 520px;
-    margin-top: 41px;
-    margin-left: 1522px;
-    box-shadow: 1px 1px 8px #0a3b52cc;
-} */
 
 .trianglebottom {
     float: right;
