@@ -63,12 +63,12 @@ header {
 }
 
 .navLi:hover {
-    background-color: rgb(171, 190, 255);
+    background-color: #abbeff;
     transform: scale(1.1);
 }
 
 .navLiCurrentActive:hover {
-    background-color: rgba(97, 172, 238, 0.6);
+    background-color: #61acee99;
 }
 
 .gitimg 
@@ -121,12 +121,10 @@ main {
 }
 
 #linkSorter {
-    background-color: rgba(131, 124, 124, 0.288);
-    border: 1px solid rgba(17, 16, 16, 0.966);
-}
-
-.link:hover {
-    scale: 1.1;
+    background-image: linear-gradient(#61acee99, #abbeff);
+    background-color: #837c7c49;
+    border: 1px solid #a12f8525;
+    box-shadow: 0px 0px 2px 2px #1a0c1b56;
 }
 
 
