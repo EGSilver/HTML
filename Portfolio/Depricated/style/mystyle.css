@@ -1,0 +1,66 @@
+html { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body { margin: 0cm;
+    background-image: url('https://deanvervaeck.be/data/img/18410.jpg');   
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #e2e2e2;
+    border-top: 2px solid cornflowerblue;
+}
+
+figure figcaption {
+    text-align: center !important;
+    
+}
+
+p {
+    font-size: 17px;
+}
+
+nav {
+    font-size: 18px;
+}
+
+img { width: 150px;
+     height: auto;
+}
+
+h1 { color: rgb(30, 23, 119);
+    margin-left: 1cm;
+    font-size: 32;
+    font-family: "Reem Kufi Fun";
+}
+
+h2 { font-size: 18px;
+    margin-left: 1cm;
+}
+
+li {
+    margin-left: 1cm;
+}
+
+h3 { 
+    font-size: 20px;
+    margin-left: 1cm;
+}
+
+h4 { 
+    font-size: 20px;
+    margin-left: 1cm;
+}
+
+p {
+    margin-left: 1cm;
+}
+
+footer {
+    position: fixed !important;
+    text-align: center !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 12px;
+
+    background: rgb(194, 202, 209)
+}
