@@ -39,6 +39,13 @@ h1 {
     margin-left: 110px;
 }
 
+h1 a {
+    color: blue;
+    margin-left: 25px;
+    text-decoration: underline;
+    font-size: 12px;   
+}
+
 ul {
     list-style: none;
 }

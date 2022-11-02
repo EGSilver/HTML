@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-.navli {
+.navLi {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
     margin-top: 5px;
@@ -98,13 +98,13 @@ h2 {
     margin: 30 15 0px -20px;
 }
 
-.infoli {
+.infoLi {
     font-size: 18px;
     text-align: left;
     margin-top: 60px;
 }
 
-.infoli a {
+.infoLi a {
     text-decoration: underline;
 }
 
@@ -176,7 +176,7 @@ p {
     line-height: 3.5;
 }
 
-.trianglebottom {
+.triangleBottom {
     float: right;
     width: 0;
     height: 0;
