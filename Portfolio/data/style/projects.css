@@ -32,7 +32,7 @@ header {
 }
 
 
-.li {
+.navLi {
     text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
     display: inline-block;
     margin-top: 5px;
@@ -48,7 +48,7 @@ header {
     
 }
 
-.li:hover {
+.navLi:hover {
     background-color: rgb(171, 190, 255);
     transform: scale(1.1);
 }
@@ -69,7 +69,7 @@ main {
     margin: auto;
 }
 
-.asideLeft {
+.floatLeft {
     float: left;
     text-decoration: none;
     box-shadow: 1px 1px 8px #0a3b52cc;
@@ -84,7 +84,7 @@ main {
     margin-top: 75px;
 }
 
-.asideLeft1 {
+.floatLeft1 {
     float: left;
     text-decoration: none;
     box-shadow: 1px 1px 8px #0a3b52cc;
@@ -99,7 +99,7 @@ main {
     margin-top: 75px;
 }
 
-.asideLeft2 {
+.floatMiddle {
     float: left;
     text-decoration: none;
     box-shadow: 1px 1px 8px #0a3b52cc;
@@ -114,7 +114,7 @@ main {
     margin-top: 75px;
 }
 
-.asideLeft3 {
+.floatRight {
     float: left;
     text-decoration: none;
     box-shadow: 1px 1px 8px #0a3b52cc;
