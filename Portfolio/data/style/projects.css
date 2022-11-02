@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 
 html {
-    background-image: url(../img/BGOpac.png);
+    background-image: url(../img/BGopac20.png);
     color: #000000fd;
     font-family: Montserrat;
     height: auto;
@@ -25,10 +25,9 @@ body {
 }
 
 header {
-    background-color: #ce6f2705;
+    background-color: #ce6f270e;
     border-color: #b98a2d0c;
     height: 45px;
-    width: auto;
 }
 
 

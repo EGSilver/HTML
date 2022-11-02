@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 
 html {
-  background-image: url(../img/BGOpac.png);
+  background-image: url(../img/BGopac20.png);
   color: #000000fd;
   font-family: Montserrat;
   height: auto;
@@ -105,6 +105,6 @@ ul {
     text-align: center;
     width: 100%;
     height: 30px;
-    margin-top: 267px;
+    margin-top: 266px;
 
 }

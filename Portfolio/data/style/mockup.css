@@ -2,7 +2,7 @@
 
 
 html {
-    background-image: url(../img/BGOpac.png);
+    background-image: url(../img/BGopac20.png);
     color: #707070;
     font-family: Montserrat;
     height: 920px;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #ce6f2705;
+    background-color: #ce6f270e;
     border-color: #b98a2d0c;
     height: 45px;
 }

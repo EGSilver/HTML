@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 
 html {
-    background-image: url(../img/BGOpac4.png);
+    background-image: url(../img/BGopac20Rev.png);
     color: #000000fd;
     font-family: Montserrat;
     height: 920px;
@@ -11,7 +11,6 @@ html {
 
 body {
     margin: auto;
-    width: 1920px;
 }
 
 .linkDeNayer, .linkDeNayer a {
