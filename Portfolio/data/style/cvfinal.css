@@ -11,6 +11,7 @@ html {
 
 body {
     margin: auto;
+    width: 1920px;
 }
 
 .linkDeNayer, .linkDeNayer a {
@@ -136,6 +137,15 @@ table, th, td {
 
   .ulBlockOne:hover, .ulBlockTwo:hover, .table:hover {
     background-color: #17dede1e;
+}
+
+.triangleBottom {
+    float: right;
+    margin-right: 0px;
+    margin-top: 295px;
+    opacity: 3%;
+    border-bottom: 100px solid purple;
+    border-left: 100px solid transparent; 
 }
 
 footer {

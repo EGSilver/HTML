@@ -68,57 +68,11 @@ main {
     margin: auto;
 }
 
-.floatLeft {
+.float {
     float: left;
     text-decoration: none;
     box-shadow: 1px 1px 8px #0a3b52cc;
-    background-image: url(../img/Untitled4.png);
-    background: #08080821;
-    background-size: cover;
-    color: #000000;
-    width: 300px;
-    height: 650px;
-    border: #707070cc;
-    margin-left: 25px;
-    margin-top: 75px;
-}
-
-.floatLeft1 {
-    float: left;
-    text-decoration: none;
-    box-shadow: 1px 1px 8px #0a3b52cc;
-    background-image: url(../img/Untitled4.png);
-    background: #08080821;
-    background-size: cover;
-    color: #000000;
-    width: 300px;
-    height: 650px;
-    border: #707070cc;
-    margin-left: 50px;
-    margin-top: 75px;
-}
-
-.floatMiddle {
-    float: left;
-    text-decoration: none;
-    box-shadow: 1px 1px 8px #0a3b52cc;
-    background-image: url(../img/Untitled4.png);
-    background: #08080821;
-    background-size: cover;
-    color: #000000;
-    width: 300px;
-    height: 650px;
-    border: #707070cc;
-    margin-left: 50px;
-    margin-top: 75px;
-}
-
-.floatRight {
-    float: left;
-    text-decoration: none;
-    box-shadow: 1px 1px 8px #0a3b52cc;
-    background-image: url(../img/Untitled4.png);
-    background: #08080821;
+    background: #0808081a;
     background-size: cover;
     color: #000000;
     width: 300px;
@@ -129,19 +83,34 @@ main {
     margin-bottom: 137px;
 }
 
+.float:hover {
+    scale: 1.1;
+}
+
 .link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 60px;
     padding: 5px;
     text-align: center;
     width: 165px;
     height: 25px;
     background-color: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(17, 16, 16, 0.966);
     border-radius: 28px;
+    line-height: 25px;
 }
 
 .link:hover {
     scale: 1.1;
+}
+
+.triangleBottom {
+    float: right;
+    margin-right: 0px;
+    margin-top: 762px;
+    opacity: 3%;
+    border-bottom: 100px solid purple;
+    border-left: 100px solid transparent; 
 }
 
 footer {
