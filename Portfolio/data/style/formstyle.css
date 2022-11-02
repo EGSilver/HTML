@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+html {
+  background-image: url(../img/BGOpac.png);
+  color: #000000fd;
+  font-family: Montserrat;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+  header {
+    background-color: #ce6f2705;
+    border-color: #b98a2d0c;
+    height: 45px;
+    width: auto;
+}
+
+body {
+  width: 1920px;
+  height: auto;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  margin: 0;
+}
+
+.formbo {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.li {
+  text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
+  display: inline-block;
+  margin-top: 5px;
+  width: 85px;
+  height: 35px;
+  margin-left: 12px;
+  border-radius: 28px;
+  background-color: rgba(97, 172, 238, 0.6);
+  border: #0f0a0a00;
+  box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+  text-align: center;
+  line-height: 2.2; 
+  
+}
+
+.li:hover {
+  background-color: rgb(171, 190, 255);
+  transform: scale(1.1);
+}
+  
+  fieldset {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 20px 0;
+  }
+  
+  fieldset legend {
+    color: rgb(0, 0, 0);
+  }
+  
+  label,
+  input,
+  select {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  
+  fieldset label,
+  fieldset input,
+  fieldset select,
+  fieldset textarea {
+    min-width: 320px;
+    vertical-align: top;
+  }
+  
+  label {
+    text-align: right;
+  }
+  
+  input[type="checkbox"],
+  input[type="submit"] {
+    width: auto;
+    min-width: auto;
+  }
+
+  footer {
+    background-color: #61BCE6;
+    border-color: #61AFEE;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 267px;
+
+}

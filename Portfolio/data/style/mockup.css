@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+
+html {
+    background-image: url(../img/BGOpac.png);
+    color: #707070;
+    font-family: Montserrat;
+    height: 920px;
+    width: auto;
+    margin: auto;
+}
+
+body {
+    margin: auto;
+    width: 1920px;
+}
+
+header {
+    background-color: #ce6f2705;
+    border-color: #b98a2d0c;
+    height: 45px;
+}
+
+ul {
+    list-style: none;
+}
+
+.li {
+    text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
+    display: inline-block;
+    margin-top: 5px;
+    width: 85px;
+    height: 35px;
+    margin-left: 12px;
+    border-radius: 28px;
+    background-color: rgba(97, 172, 238, 0.6);
+    border: #0f0a0a00;
+    box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+    text-align: center;
+    line-height: 2.2; 
+    
+}
+
+.li:hover {
+    background-color: rgb(171, 190, 255);
+    transform: scale(1.1);
+}
+
+
+
+.li2 {
+    margin-left: 35px;
+    margin-top: 38px;
+    font-size: 16px;
+    padding: 25;
+    box-shadow: #772E72;
+    text-align: left;
+}
+
+.li3 {
+    margin-left: 39px;
+    margin-top: 11px;
+    font-size: 16px;
+    padding: 22;
+    box-shadow: #772E72;
+    text-align: left;
+}
+
+.li4 {
+    text-decoration: underline;
+    margin-left: 32px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 29;
+    box-shadow: #772E72;
+    text-align: left;
+}
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+    opacity: 100%;
+    
+}
+
+.asideLeft {
+    float: left;
+    box-shadow: 1px 1px 8px #0a3b52cc;
+    background-image: url(../img/Untitled4.png);
+    background-size: cover;
+    color: #000000;
+    padding: 0;
+    margin-left: 25;
+    margin-top: 40;
+    width: 18%;
+    height: 80%;
+    border: #707070cc;
+}
+
+.profilePicture 
+{
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+.buttonPic1
+{
+    mix-blend-mode: darken;
+    margin-top: 10;
+    margin-left: -18;
+}
+
+.ButtonPic2 {
+    mix-blend-mode: darken;
+    margin-top: 25;
+    margin-left: -18;
+}
+
+.ButtonPic3 {
+    mix-blend-mode: darken;
+    margin-top: 25;
+    margin-left: -18;
+}
+
+.contactInfo {
+    float: left;
+}
+
+main {
+    float: left;
+    width: 1027px;
+    height: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.aboutMe {
+    margin-left: 10px;
+    border-radius: 80px;
+    width: 1000px;
+    height: 200px;
+    box-shadow: #AC3799;
+    background-color: #17dede0e;
+}
+
+h1 {
+    line-height: 3;
+    margin-left: 48px;
+    font-style: italic;
+}
+
+p {
+    margin-left: 47px;
+    margin-top: -20px;
+}
+
+.aboutMe:hover , .ambitie:hover,  .motivatie:hover {
+    background-color: #17dede1e;
+}
+
+.motivatie {
+    margin-left: 10px;
+    border-radius: 80px;
+    width: 1000px;
+    height: 200;
+    margin-top: 70px;
+    box-shadow: #AC3799;
+    background-color: #17dede0e;
+}
+
+.ambitie {
+    margin-left: 10px;
+    border-radius: 80px;
+    width: 1000px;
+    height: 200;
+    margin-top: 70px;
+    box-shadow: #AC3799;
+    background-color: #17dede0e;
+}
+
+.asideRight {
+    color: #000000;
+    background-image: url(../img/Group2.png);
+    background-color: #a9bcfe;
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 25px;
+
+    box-shadow: 1px 1px 8px #0a3b52cc;
+}
+
+.services {
+    line-height: 3.5;
+}
+
+/* .rightSideBarBottomWrapper {
+    background-image: url(../img/rightSideBarBottomOpac.png);
+    width: 350px;
+    height: 520px;
+    margin-top: 41px;
+    margin-left: 1522px;
+    box-shadow: 1px 1px 8px #0a3b52cc;
+} */
+
+.trianglebottom {
+    float: right;
+    width: 0;
+    height: 0;
+    opacity: 3%;
+    border-bottom: 100px solid purple;
+    border-left: 100px solid transparent; 
+}
+
+footer {
+    background-color: #61BCE6;
+    border-color: #61AFEE;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 86px;
+    
+}

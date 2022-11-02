@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+body {
+    margin-left: 350px;
+    height: 85%;
+    width: 60%;
+    background-color: bisque;
+    border-style: solid;
+    border-color: blue;
+    background-color: blueviolet;
+}
+
+.page-header {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 680px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px 0px 25px 0px;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+section {
+    margin-left: 20px;
+    width: 680px;
+    height: 450px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-radius: 25px 0px 25px 0px;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+aside {
+    margin-top: 5px;
+    position: fixed;
+    margin-left: 740px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: right;
+    float: right;
+    width: 200px;
+    height: 700px;
+    border-radius: 25px 0px 25px 0px;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+h2 {
+    margin-right: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: black;
+    list-style-type: none;
+}
+
+
+.navbar li {
+background-color: orange;
+margin-top: 25px;
+list-style-type: none;
+box-sizing: border-box;    
+padding-top: 8px;
+width: 65px;
+height: 35px;
+text-align: center;
+display:inline-block;
+border-radius: 15px 0px 15px 0px;
+border: 2px;
+border-style: solid;
+border-color: blue;
+}
+
+.page-footer p {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.page-footer {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 680px;
+    height: 115px;
+    border-radius: 25px 0px 25px 0px;
+}
