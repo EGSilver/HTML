@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 
 html {
-  background-image: url(../img/BGopac20.png);
+  background-image: url(../img/BGopac20rev.png);
   color: #000000fd;
   font-family: Montserrat;
   height: auto;
@@ -53,7 +53,7 @@ ul {
   border-radius: 28px;
   background-color: rgb(171, 190, 255);
   border: #0f0a0a00;
-  box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+  box-shadow: 1px 1px 8px #0a3b52cc;
   text-align: center;
   line-height: 2.2; 
 }
@@ -72,7 +72,7 @@ ul {
   border-radius: 28px;
   background-color: rgba(97, 172, 238, 0.6);
   border: #0f0a0a00;
-  box-shadow: 0 4px 8px rgba(10, 43, 71, 0.288);
+  box-shadow: 1px 1px 8px #0a3b52cc;
   text-align: center;
   line-height: 2.2; 
   
