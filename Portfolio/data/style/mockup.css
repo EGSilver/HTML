@@ -110,28 +110,22 @@ h2 {
 
 .contactImgli1 {
     mix-blend-mode: darken;
-    margin: 4 15 0px -20px;
+    margin: 5px 15px 0px -20px;
 }
 
 .contactImgli {
     mix-blend-mode: darken;
-    margin: 30 15 0px -20px;
+    margin: 30px 15px 0px -20px;
 }
 
 .infoLi {
     font-size: 18px;
     text-align: left;
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 .infoLi a {
     text-decoration: underline;
-}
-
-.webIconScale {
-    margin-top: -30;
-    margin-left: -35;
-    scale: 0.4;
 }
 
 
