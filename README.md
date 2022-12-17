@@ -1,3 +1,3 @@
 # HTML
 
- Version control for my portfolio website.
+Repository for my school portfolio project. 
